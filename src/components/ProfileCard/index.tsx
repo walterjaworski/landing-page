@@ -28,7 +28,7 @@ const ProfileCard: React.FC<Author> = ({
   <S.Card key={name}>
     <S.Image
       src={getImageUrl(photo.url)}
-      alt={photo.alternativetext}
+      alt={photo.alternativeText}
       loading="lazy"
     />
     <S.Name>{name}</S.Name>
