@@ -1,5 +1,5 @@
 export type Image = {
-  alternativetext?: string
+  alternativeText?: string
   url: string
 }
 
